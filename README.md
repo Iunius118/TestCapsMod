@@ -2,11 +2,18 @@
 
 Test mod of capabilities for Minecraft Forge 1.19.2
 
+This mod provides `ITestCounter` capability for all item stacks. The `ITestCounter` capability is a test capability that count, store, and restore a number.
+
+## Requirements for Play
+
+- Minecraft 1.19.2
+- Minecraft Forge 1.19.2-43.1.1+
+
 ## Add-on
 
 See also [TestCapsAddonMod](https://github.com/Iunius118/TestCapsAddonMod)
 
-### Requirements for development
+### Requirements for Development
 
 - Minecraft Forge Mdk 1.19.2-43.1.1+
 - [test-caps-api](https://github.com/Iunius118/test-caps-api) 1.0.0 (see below for installation)
