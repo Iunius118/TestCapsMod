@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Unlicense"
+# issueTrackerURL=""
+
+[[mods]]
+modId="testcapsmod"
+version="${file.jarVersion}"
+displayName="Test Caps Mod"
+# updateJSONURL=""
+# displayURL=""
+# logoFile=""
+credits=""
+authors=""
+# displayTest=""
+description=""
+
+[[dependencies.testcapsmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.testcapsmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
