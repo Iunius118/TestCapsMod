@@ -83,7 +83,9 @@ dependencies {
 
     // test-caps-api
     implementation fg.deobf("com.github.iunius118:test-caps-api:${test_caps_api_version}")
-    jarJar fg.deobf("com.github.iunius118:test-caps-api:${test_caps_api_version}")
+    jarJar fg.deobf("com.github.iunius118:test-caps-api:${test_caps_api_version}") {
+        jarJar.ranged(it, "[${test_caps_api_version},)")
+    }
 }
 
 jar {
