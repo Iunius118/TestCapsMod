@@ -2,7 +2,7 @@
 
 Test mod of capabilities for Minecraft Forge 1.19.2
 
-This mod provides `ITestCounter` capability for all item stacks. The `ITestCounter` capability is a test capability that count, store, and restore a number.
+This mod provides `ITestCounter` capability for all item stacks. The `ITestCounter` capability is a test capability that count, store, and restore a number. See also [test-caps-api](https://github.com/Iunius118/test-caps-api) and `ITestCounter` [source code](https://github.com/Iunius118/test-caps-api/blob/main/src/main/java/com/github/iunius118/testcapsapi/api/capabilities/ITestCounter.java)
 
 ## Requirements for Play
 
