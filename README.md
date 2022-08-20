@@ -1,2 +1,2 @@
 # TestCapsMod
-Test of capabilitys for Minecraft Forge 1.19.2
+Test mod of capabilities for Minecraft Forge 1.19.2
